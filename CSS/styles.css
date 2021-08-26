@@ -1,0 +1,69 @@
+:root {
+  --primary-text-color: 212121;
+  --title-text-color: 757575;
+}
+
+.body {
+  color: 212121;
+
+  font-family: ;
+}
+
+ul {
+  list-style: none;
+}
+
+/*цвет логотипа WebStudio color: #2196F3; 000000*/
+/*цвета текста 212121, 757575*/
+/*цвет фона background: #2F303A; цвет основного текста background: #FFFFFF;
+цвет элементов кнопки 2196F3,FFFFFF*/
+/*цвет фона E5E5E5, цвет списка 212121,757575, заглавие 212121*/
+/*цвет фона F5F4FA, цвет списка 212121, 757575, FFFFFF*/
+/* цвет фона 2F303A, логотип 000000, 2196F3,FFFFFF, цвет текста FFFFFF, #FFFFFF*/
+
+/* Стили для index.html */
+
+.logo {
+  color: 000000;
+}
+
+.list .item {
+  color: var(--primary-text-color);
+  background-color: var(--title-text-color);
+}
+
+.list .item:hover,
+.list .item:focus {
+  color: 2196f3;
+  background-color: var(--title-text-color);
+}
+
+.main {
+  color: FFFFFF;
+  background-color: 2f303a;
+}
+
+.title {
+  color: FFFFFF;
+}
+
+.section-title {
+  color: var(--primary-text-color);
+}
+
+.features .title {
+  color: var(--primary-text-color);
+}
+
+.team .title {
+  color: var(--primary-text-color);
+}
+
+/*Button*/
+
+.button {
+  color: FFFFFF;
+  background-color: 2196f3;
+}
+
+/* Стили для portfolio.html */
