@@ -47,7 +47,7 @@ ul {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #212121;
 }
 
@@ -170,3 +170,19 @@ ul {
 }
 
 /* Стили для portfolio.html */
+
+.gallery-button {
+  color: var(--secondary-title-color);
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.gallery-button:hover,
+.gallery-button:focus {
+  color: var(--main-title-color);
+  background-color: var(--accent-color);
+}
